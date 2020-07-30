@@ -1,10 +1,13 @@
 import React from 'react';
-import Chat from './chat/Chat'
+import Project from './components/Project'
+import './App.css';
 
-const App = () => (
-  <>
-    <Chat />
-  </>
-)
+function App() {
+  return (
+    <>
+      <Project />
+    </>
+  );
+}
 
 export default App;
